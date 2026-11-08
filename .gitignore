@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# COROS OAuth 凭据（实际保存在 ~/.workbuddy/coros-running-coach/，切勿入库）
+coros_token.json
+coros_client.json
+bin/
+cloudflared*
+
+# 杂项
+.DS_Store
+*.log
